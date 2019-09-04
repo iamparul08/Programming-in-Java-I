@@ -18,6 +18,5 @@ class Box
   Box smallBox=new Box();
   smallBox.setDimension(12,10,5);
   smallBox.showDimension();
-  smallBox=new Box();
  }
 }
