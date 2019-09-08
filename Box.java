@@ -13,6 +13,9 @@ class Box
    System.out.println("B= "+breadth);
    System.out.println("H= "+height);
  }
+}
+class Example
+{
  public static void main(String args[])
  {
   Box smallBox=new Box();
