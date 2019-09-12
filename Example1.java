@@ -1,6 +1,5 @@
 package pack1;
 import pack2.Student;
-
 public class Example1
 {
   public static void main(String[] args)
