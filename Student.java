@@ -3,7 +3,6 @@ public class Student
 {
   private int rollno;
   private String name;
-  
   public void setRollno(int r)
   { rollno = r ; }
   public void setName(String n)
