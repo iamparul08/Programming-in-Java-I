@@ -1,4 +1,4 @@
-//multilevel inheritance
+//multilevel inheritance(no input needed)
 class Person
 {
   private int age;
