@@ -6,10 +6,16 @@ class Excep1H
 		int a=10;
 		int b=5;
 		int c=5;
-		
-		int x=a/(b-c);
-		System.out.println("x= "+x);
-		int y=a/(b+c);
+		int x,y;
+		try
+		{
+			x=a/(b-c);	//exception here
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println("Division by zero");
+		}
+		y=a/(b+c);
 		System.out.println("y= "+y);
 	}
 }
