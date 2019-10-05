@@ -1,4 +1,4 @@
-//3. Debugged the code
+// 3. Debugged the code
 class multi1 extends Thread
 {
 	public void run()
