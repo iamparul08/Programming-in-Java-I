@@ -1,4 +1,4 @@
-//anotherm program of synchronizing
+//another program of synchronizing
 import java.io.*; 
 import java.util.*; 
   
