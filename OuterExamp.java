@@ -1,7 +1,7 @@
-//static inner class
+//nonstatic inner class
 class Outer
 {
-	static class Inner
+    class Inner
 	{
 		void if1()
 		{
@@ -13,7 +13,8 @@ public class OuterExamp
 {
 	public static void main(String args[])
 	{
-		Outer.Inner o1 = new Outer.Inner();
+		Outer out = new Outer(); //object of outer class
+		Outer.Inner o1 = out.new Inner(); //object of inner class
 		o1.if1();
 	}
 }
